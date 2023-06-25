@@ -40,7 +40,7 @@ class B(A):
     class PrivateAccessError(Exception):
         # def __init__(self, msg):
         #     super().__init__(msg);
-        print(end='')
+        pass;
             
     
     def display(self,expClsNm):
